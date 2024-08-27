@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,14 +7,17 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: "Roboto", sans-serif;
+    background-color: #4aa5e2;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
+p {
+    font-size: 1.1rem;
+}
 
 div {
     background: #fff;
@@ -23,8 +28,13 @@ div {
     text-align: center;
 }
 
+img {
+    width: 150px;
+    padding-bottom: 1rem;
+}
+
 label {
-    font-size: 16px;
+    font-size: 1.3rem;
     margin-bottom: 10px;
     display: block;
 }
@@ -39,7 +49,7 @@ input[type="number"] {
 
 
 #resultado {
-    font-size: 16px;
+    font-size: 1.3rem;
     color: #333;
     margin-top: 10px;
     padding: 10px 20px;
@@ -50,7 +60,7 @@ input[type="submit"] {
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1.3rem;
     cursor: pointer;
     border-radius: 20px;
     transition: background-color 0.3s ease;
